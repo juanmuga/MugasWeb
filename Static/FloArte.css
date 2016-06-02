@@ -1,0 +1,201 @@
+.maincontainer{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: center;
+}
+
+.childbox{
+	order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.childboxNav{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+    width: 50%;
+}
+.container{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.nombreArtista{
+    margin-top: 100px;
+}
+
+
+.materialboxed{
+	border-radius: 50%;
+	margin-top: 50px;
+    width: auto;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+}
+
+
+.slider{
+	order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+    margin-top: 50px;
+    box-shadow: 10px -10px 10px #888888;
+
+}
+
+.navigationBar {
+	background-color: rgba(0,0,0,0.9);
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: flex-start;
+
+    position: fixed; 
+    top: 0;
+    border-bottom: none;
+    z-index: 999;
+ 
+}
+
+#galeria{
+    margin-bottom: 100px;
+}
+
+.brand-logo{
+		margin-left: 20px;
+}
+
+.containerbio{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+    border: 2px solid #353536;
+    padding: 1px;
+    background: #00000000;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    margin-top: 200px;
+
+}
+
+.bio{
+	margin-bottom: 20px;
+	margin-right: 10%;
+	margin-left: 10%;
+
+	
+}
+
+.face{
+        max-height: 150px;
+        border-radius: 50%;
+}
+
+
+.parrafo{
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.gallery {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.oldStuffFather{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+
+    
+}
+
+.oldStuffChild{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+    max-width: 30%;
+      
+}
+
+.newStuffFather{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+
+    
+}
+
+.newStuffChild{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+    max-width: 30%;
+      
+}
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+
+    min-height: 10%;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+}
+
+.contacto1{
+    margin-left: 20px;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.contacto2{
+    margin-right: 20px;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+}
