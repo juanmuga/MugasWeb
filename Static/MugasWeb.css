@@ -36,15 +36,17 @@
 }
 
 
-.materialboxed{
-	border-radius: 50%;
-	margin-top: 50px;
+.Fotologo{
+    border-radius: 50%;
+    margin-top: 50px;
     width: auto;
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
 
 }
+
+
 
 
 .slider{
@@ -72,7 +74,9 @@
     top: 0;
     border-bottom: none;
     z-index: 999;
- 
+    
+    
+    margin-right: 20px;
 }
 
 #galeria{
@@ -90,7 +94,7 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 15px;
     
     border: 2px solid #353536;
     padding: 1px;
@@ -103,7 +107,7 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 50px;
-    margin-top: 200px;
+    margin-top: 80px;
 
 }
 
@@ -132,7 +136,7 @@
     margin-bottom: 100px;
 }
 
-.oldStuffFather{
+.imagenesFather{
     display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -143,16 +147,17 @@
     
 }
 
-.oldStuffChild{
+.imagenesChild{
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
-
-    max-width: 30%;
+    width: 100%;
+    height: auto;
+    
       
 }
 
-.newStuffFather{
+.memesFather{
     display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -163,13 +168,13 @@
     
 }
 
-.newStuffChild{
+.memesChild{
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
-
-    max-width: 30%;
-      
+    width: 100%;
+    height: auto;
+          
 }
 
 .contacto{
