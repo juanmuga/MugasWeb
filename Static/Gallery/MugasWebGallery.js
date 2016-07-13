@@ -1,9 +1,6 @@
 $(document).ready(function(){
     $('.materialboxed').materialbox();
 
-    $('.parallax').parallax();
-
-
      $('.slider').slider();
 
       
@@ -11,9 +8,9 @@ $(document).ready(function(){
       accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
     });
 
+     $('.parallax').parallax();
+
     
-
-
 
     
 
@@ -22,7 +19,6 @@ $(document).ready(function(){
 
   });
 	
-
 
    
        

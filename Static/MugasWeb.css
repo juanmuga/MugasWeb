@@ -7,6 +7,11 @@
     align-items: center;
 }
 
+.parallax-container {
+      width: 100%;
+      margin-top: 64px;
+    }
+
 .childbox{
 	order: 0;
     flex: 0 1 auto;
@@ -45,11 +50,7 @@
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
-
 }
-
-
-
 
 .slider{
 	order: 0;
@@ -77,7 +78,6 @@
     border-bottom: none;
     z-index: 999;
     
-    
     margin-right: 20px;
 }
 
@@ -98,27 +98,26 @@
     align-items: center;
     margin-top: 15px;
     
-    border: 2px solid #353536;
+    border: 2px solid #dc3522;
     padding: 1px;
-    background: #00000000;
+    background: #2a2b2c;
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
     border-top-right-radius: 1em;
     border-top-left-radius: 1em;
+     box-shadow: 10px -10px 10px #888888;
 
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 50px;
     margin-top: 80px;
-
+    color: white;
 }
 
 .bio{
 	margin-bottom: 20px;
 	margin-right: 10%;
 	margin-left: 10%;
-
-	
 }
 
 .face{
@@ -144,9 +143,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-content: flex-start;
-    align-items: center;
-
-    
+    align-items: center;   
 }
 
 .imagenesChild{
@@ -154,9 +151,7 @@
     flex: 0 1 auto;
     align-self: auto;
     width: 100%;
-    height: auto;
-    
-      
+    height: auto;     
 }
 
 .memesFather{
@@ -165,9 +160,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-content: flex-start;
-    align-items: center;
-
-    
+    align-items: center;   
 }
 
 .memesChild{
@@ -178,9 +171,6 @@
     height: auto;
           
 }
-
-
-
 
 .contacto{
     display: flex;
@@ -209,3 +199,4 @@
     align-self: auto;
 
 }
+
