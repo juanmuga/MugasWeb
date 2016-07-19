@@ -32,11 +32,11 @@
 
 .heading{
     text-align: center;
-    margin-bottom: 40%;
-    margin-top: 40%;
+    margin-bottom: 30%;
+    margin-top: 30%;
 }
 
-.imagenes{
+/*.imagenes{
    height: auto;
    margin-top: 10%;
    
@@ -54,7 +54,7 @@
     align-items: center;
 
 
-}
+} */
 
 .navigationBar {
 	background-color: rgba(0,0,0,0.9);
@@ -81,6 +81,52 @@
 
     width: auto;
     height:200px; 
+}
+
+.galeriaContainer{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: flex-start;
+    
+    max-width: 100%
+
+}
+
+.galeriaChild{
+   order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    
+    width: 50%; 
+    
+    height: auto;
+}
+
+.galeriaChild2{
+   order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    
+    width: 50%;  
+    
+    height: auto;
+
+}
+
+.childbox2{
+    width: 100%;
+    height: auto;
+    
+     order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+    padding: 10%;
+    border-color: black;
+   
 }
 
 .contacto{
@@ -111,3 +157,18 @@
     align-self: auto;
 
 }
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    line-height: 1em;
+}
+.inset-text {
+    /* Shadows are visible under slightly transparent text color */
+    color: rgba(10,60,150, 0.8);
+    text-shadow: 1px 4px 6px #def, 0 0 0 #000, 1px 4px 6px #def;
+}
+/* Don't show shadows when selecting text */
+::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
+::selection { background: #5af; color: #fff; text-shadow: none; }
