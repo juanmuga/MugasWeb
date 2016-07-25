@@ -37,25 +37,7 @@
     margin-top: 30%;
 }
 
-/*.imagenes{
-   height: auto;
-   margin-top: 10%;
-   
-    order: 0;
-    flex: 0 1 auto;
-    align-self: auto;
-}
 
-.container{
-	display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-content: stretch;
-    align-items: center;
-
-
-} */
 
 .navigationBar {
 	background-color: rgba(0,0,0,0.9);
@@ -126,7 +108,7 @@
     align-self: auto;
 
     padding: 10%;
-    border-color: black;
+    padding-top: 2%;
    
 }
 

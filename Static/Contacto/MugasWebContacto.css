@@ -27,14 +27,7 @@
     width: 50%;
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-content: stretch;
-    align-items: center;
-}
+
 
 .navigationBar {
     background-color: rgba(0,0,0,0.9);
@@ -59,8 +52,33 @@
     flex: 0 1 auto;
     align-self: auto;
 
+     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: flex-start;
+
     width: auto;
-    height:200px; 
+    min-height:88%; 
+}
+
+.mainchildbox{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+.imagenes{
+    width: 100px;
+    height: auto;
+}
+
+#gmaillogo{
+    padding-top: 14px;
 }
 
 .contacto{
