@@ -7,13 +7,13 @@ $(document).ready(function(){
      $('.slider').slider();
 
       
-    $('.collapsible').collapsible({
+    /*$('.collapsible').collapsible({
       accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
-    });
+    });*/
 
      $(".button-collapse").sideNav();
 
-
+     
 
     
 

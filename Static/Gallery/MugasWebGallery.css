@@ -66,6 +66,13 @@
     height:200px; 
 }
 
+.indexGallery{
+    padding-top: 2%;
+    border-top-style: solid;
+    border-top-color: #374140;
+    border-top-width: 50px;
+}
+
 .galeriaContainer{
     display: inline-flex;
     flex-direction: row;
@@ -84,9 +91,11 @@
     align-self: auto;
     
     width: 50%; 
-    
     height: auto;
+
 }
+
+
 
 .galeriaChild2{
    order: 0;
