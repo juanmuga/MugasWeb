@@ -16,6 +16,10 @@
     width: 1040px;
 }
 
+#Muga{
+    margin-bottom: 100px;
+}
+
 .childbox{
 	order: 0;
     flex: 0 1 auto;
