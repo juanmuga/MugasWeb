@@ -13,8 +13,13 @@ $(document).ready(function(){
 
      $(".button-collapse").sideNav();
 
-     
+     $(".floatLogo").hide(true);
 
+     $("#show").hover(function(){
+     	$(".floatLogo").show()});
+
+     $("#hide").hover(function(){
+     	$(".floatLogo").hide()});
     
 
     
