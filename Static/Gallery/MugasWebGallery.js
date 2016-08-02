@@ -12,10 +12,33 @@ $(document).ready(function(){
 
     $(".button-collapse").sideNav();
 
-    
+
+
+    $(".indexGallery").hide(true);
 
     
 
+
+
+    $(".conejo").click(function(){
+     	$(".indexGallery").hide(true);
+     	$(".conejoGallery").show()
+     		});
+
+    $(".spitfire").click(function(){
+     	$(".indexGallery").hide(true);
+     	$(".spitfireGallery").show()
+     		});
+
+    $(".lampara").click(function(){
+     	$(".indexGallery").hide(true);
+     	$(".lamparaGallery").show()
+     		});
+    
+    $(".chess").click(function(){
+     	$(".indexGallery").hide(true);
+     	$(".chessGallery").show()
+     		});
 
   });
 	
