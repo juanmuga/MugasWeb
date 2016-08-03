@@ -17,7 +17,11 @@ $(document).ready(function(){
     $(".indexGallery").hide(true);
 
     
-
+    $(".imagenesChild").hover(function(){
+    $(this).css("border-color", "#DC3522");
+    }, function(){
+    $(this).css("border-color", "white");
+});
 
 
     $(".conejo").click(function(){
@@ -38,6 +42,11 @@ $(document).ready(function(){
     $(".chess").click(function(){
      	$(".indexGallery").hide(true);
      	$(".chessGallery").show()
+     		});
+
+    $(".bowlling").click(function(){
+     	$(".indexGallery").hide(true);
+     	$(".bowllingGallery").show()
      		});
 
   });
