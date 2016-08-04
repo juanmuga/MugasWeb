@@ -15,10 +15,10 @@ $(document).ready(function(){
 
      $(".floatLogo").hide(true);
 
-     $("#show").hover(function(){
+     $(".show").hover(function(){
      	$(".floatLogo").show()});
 
-     $("#hide").hover(function(){
+     $(".logout").hover(function(){
      	$(".floatLogo").hide()});
     
 

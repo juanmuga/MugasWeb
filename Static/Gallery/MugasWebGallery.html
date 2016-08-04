@@ -8,6 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="icon"   href="../Img/Varios/JM8.png">
 	</head>
 	
 
@@ -54,7 +55,7 @@
 				<h1 class="inset-text heading">Images</h1>
 		</div>
 
-		<div  class="gallery ">
+		<div  class="gallery" id="up">
  			<ul class="collapsible childbox" data-collapsible="expandable" >
     				 <li class="fondo">
       				 <div class="collapsible-header "><i class="material-icons" >OPEN</i></div>
@@ -63,15 +64,17 @@
       		 		 		
       		 		 		
 
-							<img src="../Img/Img3d/HillRabbit4.png" alt="Foto 3D Conejos" class="imagenesChild  conejo">
+							<a href="#go"><img src="../Img/Img3d/HillRabbit4.png"  alt="Foto 3D Conejos" class="imagenesChild  conejo"></a>
 
-      		 		 		<img src="../Img/Img3d/Spitfire10.png" alt="Foto 3D Spitfire" class="imagenesChild  spitfire">
+      		 		 		<a href="#go2"><img src="../Img/Img3d/Spitfire10.png" alt="Foto 3D Spitfire" class="imagenesChild  spitfire"></a>
  									 		 	
-      		 		 		<img src="../Img/Img3d/Lampara1.png" alt="Foto 3D Lampara" class="imagenesChild lampara">
+      		 		 		<a href="#go3"><img src="../Img/Img3d/Lampara1.png" alt="Foto 3D Lampara" class="imagenesChild lampara">
  
-      		 		 		<img src="../Img/Img3d/ChessBoard6.png" alt="Foto 3D ajedrez" class="imagenesChild chess">
+      		 		 		<a href="#go4"><img src="../Img/Img3d/ChessBoard6.png" alt="Foto 3D ajedrez" class="imagenesChild chess"></a>
 
-      		 		 		<img src="../Img/Img3d/Bowlling3.png" alt="Foto 3D bowlling" class="imagenesChild bowlling">
+      		 		 		<a href="#go5"><img src="../Img/Img3d/Bowlling3.png" alt="Foto 3D bowlling" class="imagenesChild bowlling"></a>
+
+      		 		 		<a href="#go6"><img src="../Img/Img3d/pyramid9cyc.png" alt="Foto 3D mayas" class="imagenesChild mayas"></a>
 
 
  
@@ -92,8 +95,8 @@
 
 
 
-		<div class= "conejoGallery indexGallery">
-			<div id="go" class= "childbox galeriaContainer">
+		<div class= "conejoGallery indexGallery"  id="go">
+			<div  class= "childbox galeriaContainer">
 				<div class="galeriaChild">
 					<div class="childbox"><img class="materialboxed childbox2"  src= "../Img/Img3d/Rabbit2.png"></div>
 				</div>
@@ -109,30 +112,14 @@
 					<div class="childbox"><img class="materialboxed childbox2"  src= "../Img/Img3d/HillRabbit4.png"></div>
 				</div>
 			</div>
+			<a href="#up"><div class="bottomborder">UP</div></a>
 		</div>
 			
-		<div class= "lamparaGallery indexGallery">
-			<div class= "childbox galeriaContainer">
-				<div class="galeriaChild">
-					<div class="childbox"><img class="materialboxed childbox2"  src= "../Img/Img3d/Lampara1.png"></div>	
-				</div>
-				<div class="galeriaChild2">
-					<div class="childbox"><img class="materialboxed childbox2"  src= "../Img/Img3d/Lampara6.png"></div>
-				</div>
-			</div>
-			<div class= "childbox galeriaContainer">
-				<div class="galeriaChild">
-					<div class="childbox"><img class="materialboxed childbox2"  src= "../Img/Img3d/Lampara7.png"></div>	
-				</div>
-				<div class="galeriaChild2">
-					<div class="childbox"><img class="materialboxed childbox2"  src= "../Img/Img3d/Lampara8.png"></div>
-				</div>
-			</div>
-		</div>
+		
 
 		
 
-		<div class= "spitfireGallery indexGallery">
+		<div class= "spitfireGallery indexGallery" id="go2">
 			<div class= " childbox galeriaContainer">
 				
 				<div class="galeriaChild">
@@ -150,9 +137,30 @@
 					<div class="childbox"><img class="materialboxed childbox2"  src= "../Img/Img3d/Spitfire17.png"></div>
 				</div>
 			</div>
+			<a href="#up"><div class="bottomborder">UP</div></a>
+		</div>
+		
+		<div class= "lamparaGallery indexGallery" id="go3">
+			<div class= "childbox galeriaContainer">
+				<div class="galeriaChild">
+					<div class="childbox"><img class="materialboxed childbox2"  src= "../Img/Img3d/Lampara1.png"></div>	
+				</div>
+				<div class="galeriaChild2">
+					<div class="childbox"><img class="materialboxed childbox2"  src= "../Img/Img3d/Lampara6.png"></div>
+				</div>
+			</div>
+			<div class= "childbox galeriaContainer">
+				<div class="galeriaChild">
+					<div class="childbox"><img class="materialboxed childbox2"  src= "../Img/Img3d/Lampara7.png"></div>	
+				</div>
+				<div class="galeriaChild2">
+					<div class="childbox"><img class="materialboxed childbox2"  src= "../Img/Img3d/Lampara8.png"></div>
+				</div>
+			</div>
+			<a href="#up"><div class="bottomborder">UP</div></a>
 		</div>
 
-		<div class= "chessGallery indexGallery">
+		<div class= "chessGallery indexGallery" id="go4">
 			<div class= " childbox galeriaContainer">
 				
 				<div class="galeriaChild">
@@ -170,12 +178,12 @@
 					<div class="childbox"><img class="materialboxed childbox2"  src= "../Img/Img3d/ChessBoard.png"></div>
 				</div>
 			</div>
-
+			<a href="#up"><div class="bottomborder">UP</div></a>
 		</div>
 
 		
 
-		<div class= "bowllingGallery indexGallery">
+		<div class= "bowllingGallery indexGallery" id="go5">
 			<div class= " childbox galeriaContainer">
 				
 				<div class="galeriaChild">
@@ -193,13 +201,35 @@
 					<div class="childbox"><img class="materialboxed childbox2"  src= "../Img/Img3d/Bowlling4.png"></div>
 				</div>
 			</div>
-
+			<a href="#up"><div class="bottomborder">UP</div></a>
 		</div>
 
 
 
+		<div class= "pyramidGallery indexGallery" id="go6">
+			<div class= " childbox galeriaContainer">
+				
+				<div class="galeriaChild">
+					<div class="childbox"><img class="materialboxed childbox2"  src= "../Img/Img3d/pyramid9cyc.png"></div>	
+				</div>
+				<div class="galeriaChild2">
+					<div class="childbox"><img class="materialboxed childbox2"  src= "../Img/Img3d/pyramid7cyc.png"></div>
+				</div>
+			</div>
+			<div class= "childbox galeriaContainer">
+				<div class="galeriaChild">
+					<div class="childbox"><img class="materialboxed childbox2"  src= "../Img/Img3d/pyramid5cyc.png"></div>	
+				</div>
+				<div class="galeriaChild2">
+					<div class="childbox"><img class="materialboxed childbox2"  src= "../Img/Img3d/pyramid8cyc.png"></div>
+				</div>
+			</div>
+			<a href="#up"><div class="bottomborder">UP</div></a>
+		</div>
 
-	</div>
+
+
+	
 	
 		
 		

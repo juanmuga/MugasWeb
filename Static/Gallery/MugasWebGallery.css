@@ -75,6 +75,15 @@
     border-top-width: 50px;
 }
 
+.bottomborder{
+    height: 50px;
+    background-color: #2A2C2B;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+
+    
+}
 .galeriaContainer{
     display: inline-flex;
     flex-direction: row;

@@ -12,7 +12,7 @@ $(document).ready(function(){
 
     $(".button-collapse").sideNav();
 
-
+    
 
     $(".indexGallery").hide(true);
 
@@ -48,6 +48,11 @@ $(document).ready(function(){
      	$(".indexGallery").hide(true);
      	$(".bowllingGallery").show()
      		});
+
+    $(".mayas").click(function(){
+        $(".indexGallery").hide(true);
+        $(".pyramidGallery").show()
+            });
 
   });
 	
